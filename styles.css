@@ -47,7 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-button {
+button,
+input {
     font-size: 100%;
     font-family: inherit;
     border: 0;
@@ -256,6 +257,7 @@ li {
     padding-left:25px;
     grid-area: 1/1/3/2;
     display: grid;
+    grid-template-rows: 84px 1fr 2rem;
     color: #ffffff;
 }
 
@@ -313,6 +315,28 @@ li {
     border-bottom: 1px solid #5e5e5e;
     flex-grow: 1;
 }
+
+.send-box input {
+    flex-grow: 1;
+    background-color: transparent;
+    color: #ebe8e4;
+}
+.send-button{
+    align-self: center;
+}
+.send-button:hover {
+    cursor: pointer;
+}
+
+.send-box {
+    display: flex;
+    background-color: #5e5e5e;
+    border-radius: 5px;
+    border: 1px solid #5e5e5e;
+    gap:15px;
+    padding: 0px 10px;
+}
+
 .tasks,
 .friends {
     grid-area: 2/2/3/3;
