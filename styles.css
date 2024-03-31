@@ -189,7 +189,7 @@ li {
 .greeting {
     display: grid;
     grid-row: 2/3;
-    grid-template-columns: 85px 1fr 100px 100px;
+    grid-template-columns: 85px 1fr 75px 100px;
     grid-template-rows: 0.25fr 0.25fr;
     align-items: center;
 }
